@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;HelloGoLang&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Simple Media Player" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../sorter" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../calc" />
+      <root url="file://$PROJECT_DIR$/../GoWebLearn" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../flora-kit-0.1.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../Simple Media Player" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../sorter" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../calc" />
+      <root url="file://$PROJECT_DIR$/../GoWebLearn" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../flora-kit-0.1.1" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
