@@ -22,11 +22,15 @@ func main() {
 	a.Add(2)
 	println(a)
 	var arr = [3] int {1,2,3}
-	barr:=&arr
+	barr:=&arr		
 	barr[1]++
 
 	fmt.Println(*barr,arr)
-	
+
+	s := make([]int,100)
+
+	fmt.Println(s)
+
 
 
 }

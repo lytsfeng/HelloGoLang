@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type personInfo struct {
 	Id      string
 	Name    string
@@ -23,4 +25,27 @@ func main() {
 	//v := [] int{1,2}
 	//resultChan := make(chan int,2)
 	//Sum(v,resultChan)
+
+	_d  := map[int]string{1:"2",2:"4"}
+	for k := range _d{
+		if k == 1{
+			delete(_d,k)
+			_d[4] = "hello"
+		}
+		fmt.Println(k)
+	}
+	fmt.Println(_d)
+
+
+
+	ints := []int{1,2,3,4,5}
+	for i := range ints{
+		fmt.Println(i)
+	}
+
+
+
+
+
+
 }

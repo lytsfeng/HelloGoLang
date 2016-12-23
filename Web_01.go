@@ -19,6 +19,7 @@ func sayHelloWeb(response http.ResponseWriter,request *http.Request)  {
 		fmt.Println("key:", k)
 		fmt.Println("val:", strings.Join(v, ""))
 	}
+	response.Header().Set("Content-Length","1024")
 	fmt.Fprintf(response, "Hello astaxie!") //这个写入到w的是输出到客户端的
 }
 
